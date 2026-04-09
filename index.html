@@ -1,1175 +1,1417 @@
 <!doctype html>
 <html lang="vi" prefix="og: http://ogp.me/ns#">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Form trắc nghiệm JFT Basic 01 [Hương Sensei]</title>
-    <meta name="description" content="Luyện tập trắc nghiệm JFT Basic 01 cùng Hương Sensei. Bài tập có đầy đủ âm thanh và hình ảnh minh họa sinh động." />
-    
-    <!-- Open Graph / Zalo / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://huongjpsensei.github.io/JP_Test/" />
-    <meta property="og:site_name" content="Hương Sensei JP Test" />
-    <meta property="og:title" content="Form trắc nghiệm JFT Basic 01 [Hương Sensei]" />
-    <meta property="og:description" content="Luyện tập trắc nghiệm JFT Basic 01 cùng Hương Sensei. Bài tập có đầy đủ âm thanh và hình ảnh minh họa sinh động." />
-    <meta property="og:image" content="https://huongjpsensei.github.io/JP_Test/assets/CK_1-1.png" />
-    <meta property="og:image:width" content="760" />
-    <meta property="og:image:height" content="479" />
-    <meta property="og:image:type" content="image/png" />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://huongjpsensei.github.io/JP_Test/" />
-    <meta property="twitter:title" content="Form trắc nghiệm JFT Basic 01 [Hương Sensei]" />
-    <meta property="twitter:description" content="Luyện tập trắc nghiệm JFT Basic 01 cùng Hương Sensei. Bài tập có đầy đủ âm thanh và hình ảnh minh họa sinh động." />
-    <meta property="twitter:image" content="https://huongjpsensei.github.io/JP_Test/assets/CK_1-1.png" />
-    <style>
-      :root {
-        --bg: #ffffff;
-        --card: #ffffff;
-        --text: #111827;
-        --muted: #6b7280;
-        --border: rgba(17, 24, 39, 0.14);
-        --accent: #6ea8fe;
-        --good: #2ecc71;
-        --bad: #ff5b6e;
-        --warn: #b45309;
-      }
-      * { box-sizing: border-box; }
-      body {
-        margin: 0;
-        font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
-          "Segoe UI Emoji";
-        color: var(--text);
-        background: var(--bg);
-      }
-      .wrap {
-        max-width: 980px;
-        margin: 28px auto 56px;
-        padding: 0 16px;
-      }
-      header {
-        display: grid;
-        gap: 10px;
-        margin-bottom: 16px;
-      }
-      .title {
-        font-size: 22px;
-        font-weight: 700;
-        letter-spacing: 0.2px;
-      }
-      .subtitle {
-        color: var(--muted);
-        font-size: 14px;
-        line-height: 1.4;
-      }
-      .card {
-        background: var(--card);
-        border: 1px solid var(--border);
-        border-radius: 14px;
-        padding: 14px;
-        box-shadow: 0 14px 40px rgba(17, 24, 39, 0.10);
-      }
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Form trắc nghiệm JFT Basic 01 [Hương Sensei]</title>
+  
+  <meta name="description" content="Luyện tập trắc nghiệm JFT Basic 01 cùng Hương Sensei. Bài tập có đầy đủ âm thanh và hình ảnh minh họa sinh động." />
+
+  <!-- Open Graph / Zalo / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://huongjpsensei.github.io/JP_Test/" />
+  <meta property="og:site_name" content="Hương Sensei JP Test" />
+  <meta property="og:title" content="Form trắc nghiệm JFT Basic 01 [Hương Sensei]" />
+  <meta property="og:description" content="Luyện tập trắc nghiệm JFT Basic 01 cùng Hương Sensei. Bài tập có đầy đủ âm thanh và hình ảnh minh họa sinh động." />
+  <meta property="og:image" content="https://huongjpsensei.github.io/JP_Test/assets/CK_1-1.png" />
+  <meta property="og:image:secure_url" content="https://huongjpsensei.github.io/JP_Test/assets/CK_1-1.png" />
+  <meta property="og:image:width" content="760" />
+  <meta property="og:image:height" content="479" />
+  <meta property="og:image:type" content="image/png" />
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://huongjpsensei.github.io/JP_Test/" />
+  <meta property="twitter:title" content="Form trắc nghiệm JFT Basic 01 [Hương Sensei]" />
+  <meta property="twitter:description" content="Luyện tập trắc nghiệm JFT Basic 01 cùng Hương Sensei. Bài tập có đầy đủ âm thanh và hình ảnh minh họa sinh động." />
+  <meta property="twitter:image" content="https://huongjpsensei.github.io/JP_Test/assets/CK_1-1.png" />
+  <style>
+    :root {
+      --bg: #ffffff;
+      --card: #ffffff;
+      --text: #111827;
+      --muted: #6b7280;
+      --border: rgba(17, 24, 39, 0.14);
+      --accent: #6ea8fe;
+      --good: #2ecc71;
+      --bad: #ff5b6e;
+      --warn: #b45309;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji",
+        "Segoe UI Emoji";
+      color: var(--text);
+      background: var(--bg);
+    }
+
+    .wrap {
+      max-width: 980px;
+      margin: 28px auto 56px;
+      padding: 0 16px;
+    }
+
+    header {
+      display: grid;
+      gap: 10px;
+      margin-bottom: 16px;
+    }
+
+    .title {
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.2px;
+    }
+
+    .subtitle {
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px;
+      box-shadow: 0 14px 40px rgba(17, 24, 39, 0.10);
+    }
+
+    .controls {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 10px;
+      margin-bottom: 12px;
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 8px;
+    }
+
+    label.small {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    input[type="text"] {
+      width: 100%;
+      padding: 12px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text);
+      outline: none;
+    }
+
+    input[type="text"]:focus {
+      border-color: rgba(110, 168, 254, 0.55);
+      box-shadow: 0 0 0 3px rgba(110, 168, 254, 0.18);
+    }
+
+    .btns {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    button {
+      appearance: none;
+      border: 1px solid var(--border);
+      background: #ffffff;
+      color: var(--text);
+      padding: 10px 12px;
+      border-radius: 10px;
+      cursor: pointer;
+      font-weight: 650;
+    }
+
+    button.primary {
+      border-color: rgba(37, 99, 235, 0.35);
+      background: rgba(37, 99, 235, 0.08);
+    }
+
+    button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    .result {
+      margin-top: 12px;
+      padding: 12px;
+      border-radius: 12px;
+      border: 1px solid var(--border);
+      background: #f9fafb;
+      display: none;
+      gap: 10px;
+    }
+
+    .result.show {
+      display: grid;
+    }
+
+    .result .score {
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .result .meta {
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .hint {
+      color: var(--warn);
+      font-size: 13px;
+      display: none;
+    }
+
+    .hint.show {
+      display: block;
+    }
+
+    .quiz {
+      margin-top: 14px;
+    }
+
+    /* Normalize imported markup from data.txt */
+    #questionContainer {
+      display: grid;
+      gap: 18px;
+    }
+
+    #questionContainer>.title>p,
+    #questionContainer .title-group>p {
+      margin: 0;
+      font-weight: 800;
+      font-size: 18px;
+    }
+
+    #questionContainer .title {
+      margin-top: 10px;
+    }
+
+    #questionContainer .group {
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px;
+      background: #ffffff;
+    }
+
+    #questionContainer .title-group {
+      margin-bottom: 10px;
+      color: var(--text);
+    }
+
+    #questionContainer .sub-title {
+      color: var(--muted);
+      font-weight: 500;
+    }
+
+    #questionContainer .question {
+      padding: 10px 10px;
+      border-radius: 12px;
+      border: 1px solid rgba(17, 24, 39, 0.10);
+      background: #ffffff;
+      margin: 10px 0;
+    }
+
+    #questionContainer .question p {
+      margin: 0 0 10px;
+      line-height: 1.45;
+    }
+
+    #questionContainer label {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      padding: 8px 10px;
+      border-radius: 10px;
+      border: 1px solid rgba(17, 24, 39, 0.10);
+      margin: 8px 0;
+      cursor: pointer;
+      user-select: none;
+      background: #ffffff;
+      color: var(--text);
+    }
+
+    #questionContainer input[type="radio"] {
+      margin-top: 3px;
+    }
+
+    #questionContainer img.question-img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 12px;
+      border: 1px solid rgba(17, 24, 39, 0.12);
+      margin-top: 15px;
+      margin-bottom: 15px;
+      object-fit: contain;
+    }
+
+    #questionContainer .audio-player {
+      margin: 10px 0;
+    }
+
+    /* After submit feedback */
+    .q-correct {
+      border-color: rgba(46, 204, 113, 0.45) !important;
+    }
+
+    .q-wrong {
+      border-color: rgba(255, 91, 110, 0.45) !important;
+    }
+
+    .opt-correct {
+      border-color: rgba(46, 204, 113, 0.55) !important;
+      background: rgba(46, 204, 113, 0.12) !important;
+    }
+
+    .opt-wrong {
+      border-color: rgba(255, 91, 110, 0.55) !important;
+      background: rgba(255, 91, 110, 0.12) !important;
+    }
+
+    .q-missing {
+      border-color: rgba(180, 83, 9, 0.55) !important;
+      background: rgba(180, 83, 9, 0.06) !important;
+    }
+
+    .bottom-actions {
+      position: sticky;
+      bottom: 0;
+      margin-top: 14px;
+      padding: 12px;
+      border-radius: 14px;
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(6px);
+    }
+
+    @media (min-width: 760px) {
       .controls {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 10px;
-        margin-bottom: 12px;
+        grid-template-columns: 1.3fr 1fr;
+        align-items: end;
       }
+
       .row {
-        display: grid;
         grid-template-columns: 1fr;
-        gap: 8px;
       }
-      label.small {
-        color: var(--muted);
-        font-size: 13px;
-      }
-      input[type="text"] {
-        width: 100%;
-        padding: 12px 12px;
-        border-radius: 10px;
-        border: 1px solid var(--border);
-        background: #ffffff;
-        color: var(--text);
-        outline: none;
-      }
-      input[type="text"]:focus {
-        border-color: rgba(110, 168, 254, 0.55);
-        box-shadow: 0 0 0 3px rgba(110, 168, 254, 0.18);
-      }
-      .btns {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-        align-items: center;
-      }
-      button {
-        appearance: none;
-        border: 1px solid var(--border);
-        background: #ffffff;
-        color: var(--text);
-        padding: 10px 12px;
-        border-radius: 10px;
-        cursor: pointer;
-        font-weight: 650;
-      }
-      button.primary {
-        border-color: rgba(37, 99, 235, 0.35);
-        background: rgba(37, 99, 235, 0.08);
-      }
-      button:disabled {
-        opacity: 0.55;
-        cursor: not-allowed;
-      }
-      .result {
-        margin-top: 12px;
-        padding: 12px;
-        border-radius: 12px;
-        border: 1px solid var(--border);
-        background: #f9fafb;
-        display: none;
-        gap: 10px;
-      }
-      .result.show { display: grid; }
-      .result .score {
-        font-size: 16px;
-        font-weight: 800;
-      }
-      .result .meta {
-        color: var(--muted);
-        font-size: 13px;
-      }
-      .hint {
-        color: var(--warn);
-        font-size: 13px;
-        display: none;
-      }
-      .hint.show { display: block; }
-      .quiz {
-        margin-top: 14px;
-      }
+    }
+  </style>
+</head>
 
-      /* Normalize imported markup from data.txt */
-      #questionContainer { display: grid; gap: 18px; }
-      #questionContainer > .title > p,
-      #questionContainer .title-group > p {
-        margin: 0;
-        font-weight: 800;
-        font-size: 18px;
-      }
-      #questionContainer .title { margin-top: 10px; }
-      #questionContainer .group {
-        border: 1px solid var(--border);
-        border-radius: 14px;
-        padding: 12px;
-        background: #ffffff;
-      }
-      #questionContainer .title-group { margin-bottom: 10px; color: var(--text); }
-      #questionContainer .sub-title { color: var(--muted); font-weight: 500; }
-      #questionContainer .question {
-        padding: 10px 10px;
-        border-radius: 12px;
-        border: 1px solid rgba(17, 24, 39, 0.10);
-        background: #ffffff;
-        margin: 10px 0;
-      }
-      #questionContainer .question p {
-        margin: 0 0 10px;
-        line-height: 1.45;
-      }
-      #questionContainer label {
-        display: flex;
-        gap: 10px;
-        align-items: flex-start;
-        padding: 8px 10px;
-        border-radius: 10px;
-        border: 1px solid rgba(17, 24, 39, 0.10);
-        margin: 8px 0;
-        cursor: pointer;
-        user-select: none;
-        background: #ffffff;
-        color: var(--text);
-      }
-      #questionContainer input[type="radio"] { margin-top: 3px; }
-      #questionContainer img.question-img {
-        max-width: 100%;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 12px;
-        border: 1px solid rgba(17, 24, 39, 0.12);
-        margin-top: 15px;
-        margin-bottom: 15px;
-        object-fit: contain;
-      }
-      #questionContainer .audio-player { margin: 10px 0; }
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">Form trắc nghiệm JFT Basic 01 [Hương Sensei]</div>
+      <div class="subtitle">
+        Nhập tên, làm bài và bấm <b>Nộp bài</b> để chấm điểm.
+      </div>
+    </header>
 
-      /* After submit feedback */
-      .q-correct { border-color: rgba(46, 204, 113, 0.45) !important; }
-      .q-wrong { border-color: rgba(255, 91, 110, 0.45) !important; }
-      .opt-correct { border-color: rgba(46, 204, 113, 0.55) !important; background: rgba(46, 204, 113, 0.12) !important; }
-      .opt-wrong { border-color: rgba(255, 91, 110, 0.55) !important; background: rgba(255, 91, 110, 0.12) !important; }
-      .q-missing { border-color: rgba(180, 83, 9, 0.55) !important; background: rgba(180, 83, 9, 0.06) !important; }
-
-      .bottom-actions {
-        position: sticky;
-        bottom: 0;
-        margin-top: 14px;
-        padding: 12px;
-        border-radius: 14px;
-        border: 1px solid var(--border);
-        background: rgba(255, 255, 255, 0.92);
-        backdrop-filter: blur(6px);
-      }
-
-      @media (min-width: 760px) {
-        .controls { grid-template-columns: 1.3fr 1fr; align-items: end; }
-        .row { grid-template-columns: 1fr; }
-      }
-    </style>
-  </head>
-  <body>
-    <div class="wrap">
-      <header>
-        <div class="title">Form trắc nghiệm JFT Basic 01 [Hương Sensei]</div>
-        <div class="subtitle">
-          Nhập tên, làm bài và bấm <b>Nộp bài</b> để chấm điểm.
+    <div class="card">
+      <div class="controls">
+        <div class="row">
+          <label class="small" for="fullName">Họ và tên</label>
+          <input id="fullName" type="text" placeholder="Nhập tên của bạn..." autocomplete="name" />
+          <div id="nameHint" class="hint">Bạn cần nhập tên trước khi nộp bài.</div>
+          <div id="allAnsweredHint" class="hint">Bạn phải chọn <b>tất cả</b> các câu trước khi nộp bài.</div>
         </div>
-      </header>
+      </div>
 
-      <div class="card">
-        <div class="controls">
-          <div class="row">
-            <label class="small" for="fullName">Họ và tên</label>
-            <input id="fullName" type="text" placeholder="Nhập tên của bạn..." autocomplete="name" />
-            <div id="nameHint" class="hint">Bạn cần nhập tên trước khi nộp bài.</div>
-            <div id="allAnsweredHint" class="hint">Bạn phải chọn <b>tất cả</b> các câu trước khi nộp bài.</div>
-          </div>
-        </div>
+      <div id="result" class="result" aria-live="polite"></div>
 
-        <div id="result" class="result" aria-live="polite"></div>
-
-        <div class="quiz">
-          <div id="mount"></div>
-          <div class="bottom-actions">
-            <div class="btns">
-              <button id="submitBtn" class="primary" type="button">Nộp bài</button>
-              <button id="resetBtn" type="button">Làm lại</button>
-            </div>
+      <div class="quiz">
+        <div id="mount"></div>
+        <div class="bottom-actions">
+          <div class="btns">
+            <button id="submitBtn" class="primary" type="button">Nộp bài</button>
+            <button id="resetBtn" type="button">Làm lại</button>
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Embed nguyên nội dung data.txt để chạy được cả khi mở file trực tiếp (không cần fetch). -->
-    <template id="dataTemplate">
-      <div id="questionContainer">
-                    <div class="title">
-                        <p>文字と語彙</p>
-                    </div><div class="group">
-                      <div class="title-group">
-                        <p><b>問題１。絵を見て、語の意味を一つ選んでください。</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>問１：</p>
-                <img decoding="async" class="question-img" src="assets/BG_1－1.png" alt="Image for question 2">
-                  
-                <label><input type="radio" name="question1" value="A" disabled="">なきます
-                </label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question1" value="B" disabled="">おこります</label>
-                <label style="color: green;"><input type="radio" name="question1" value="C" disabled="">わらいます</label>
-                </div>
-                <div class="question">
-                <p>問２：</p>
-                <img decoding="async" class="question-img" src="assets/BG_1-2.png" alt="Image for question 3">
-                  
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question2" value="A" disabled="">そうじします</label>
-                <label><input type="radio" name="question2" value="B" disabled="">せんたくします
-                </label>
-                <label><input type="radio" name="question2" value="C" disabled="">かたづけます</label>
-                </div>
-                <div class="question">
-                <p>問３：</p>
-                <img decoding="async" class="question-img" src="assets/BG_1-3.png" alt="Image for question 4">
-                  
-                <label><input type="radio" name="question3" value="A" disabled="">はらいます</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question3" value="B" disabled="">きんちょうします</label>
-                <label style="color: green;"><input type="radio" name="question3" value="C" disabled="">ちょきんします</label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>問題２　 (        ) になにをいれますか。いちばんいいものを一つえらんでください。</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１．31日までに電話代を　(                            )  なければなりません。</p>
-                
-                  
-                <label><input type="radio" name="question4" value="A" disabled="">よら</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question4" value="B" disabled="">とどけ</label>
-                <label style="color: green;"><input type="radio" name="question4" value="C" disabled="">はらわ</label>
-                </div>
-                <div class="question">
-                <p>２．この肉は　とても　（　　　　　）です。</p>
-                
-                  
-                <label><input type="radio" name="question5" value="A" disabled="">ふかい</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question5" value="B" disabled="">やわらかい</label>
-                <label><input type="radio" name="question5" value="C" disabled="">ただしい</label>
-                </div>
-                <div class="question">
-                <p>３．りょうりをしているとき、（　　　　　）を　きってしまいました。
-                </p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question6" value="A" disabled="">ゆび</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question6" value="B" disabled="">ひげ</label>
-                <label><input type="radio" name="question6" value="C" disabled="">かみ</label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>題３：＿＿のことばはひらがなでどうかきますか。１．２．３．からいちばんいいものを一つえらんでください。</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１：<strong><u>水道</u></strong>がこわれたときは,ここにでんわしてください。</p>
-                
-                  
-                <label><input type="radio" name="question7" value="A" disabled="">すいとう</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question7" value="B" disabled="">すいどう</label>
-                <label><input type="radio" name="question7" value="C" disabled="">ずいどう</label>
-                </div>
-                <div class="question">
-                <p>２：そのスカートは、ちょっと<strong><u>短い</u></strong>と思う。</p>
-                
-                  
-                <label><input type="radio" name="question8" value="A" disabled="">こい</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question8" value="B" disabled="">ふとい</label>
-                <label><input type="radio" name="question8" value="C" disabled="">みじかい</label>
-                </div>
-                <div class="question">
-                <p>３：夏休みのよていが<strong><u>決まりましたか</u></strong>。</p>
-                
-                  
-                <label><input type="radio" name="question9" value="A" disabled="">あつまりました</label>
-                <label><input type="radio" name="question9" value="B" disabled="">きまりました</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question9" value="C" disabled="">とまりました</label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>題４　　文をよんで、いちばんいいものを一つえらんでください。</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１．パソコンが　（　　　）なりました。</p>
-                
-                  
-                <label><input type="radio" name="question10" value="A" disabled="">働かない</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question10" value="B" disabled="">働かなく</label>
-                <label><input type="radio" name="question10" value="C" disabled="">通かなく</label>
-                </div>
-                <div class="question">
-                <p>２．あめ　が　（　　　　　）なったので、買い物に出かけました。</p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question11" value="A" disabled="">弱く</label>
-                <label><input type="radio" name="question11" value="B" disabled="">強く</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question11" value="C" disabled="">軽く</label>
-                </div>
-                <div class="question">
-                <p>３．あついので、かみ　を（　　　　　）しました。</p>
-                
-                  
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question12" value="A" disabled="">涼しく</label>
-                <label><input type="radio" name="question12" value="B" disabled="">低く</label>
-                <label style="color: green;"><input type="radio" name="question12" value="C" disabled="">短く</label>
-                </div></div>
-                    <div class="title">
-                        <p>会話・表現</p>
-                    </div><div class="group">
-                      <div class="title-group">
-                        <p><b>文法</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>問１．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：お酒は　しばらく　やめて　ください。<br>
-                B：えっ、お酒を　(　　　　)は　いけないんですか。<br>
-                A：ええ。病気がなおるまでだめですよ。<br>
-                B：わかりました。<br>
-                </p>
-                
-                  
-                <label><input type="radio" name="question13" value="A" disabled="">飲みて</label>
-                <label><input type="radio" name="question13" value="B" disabled="">飲んて</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question13" value="C" disabled="">飲んで</label>
-                <label><input type="radio" name="question13" value="D" disabled="">飲みで</label></div>
-                <div class="question">
-                <p>２．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：えみさん、ちょっと　聞いても　いいですか。<br>
-                B：なんですか。<br>
-                A：会社の　せんぱいに　お子さんが　生まれたので、
-　   お祝いに　何か　(　　　　　)　と思うんですが、
-　   いくらぐらいの　ものが　いいですか？<br>
-                B：そうですね。会社の人には　だいたい5000円
-　　ぐらいの　もの　ですね。<br>
-                </p>
-                
-                  
-                <label><input type="radio" name="question14" value="A" disabled="">あげない</label>
-                <label style="color: green;"><input type="radio" name="question14" value="B" disabled="">あげよう</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question14" value="C" disabled="">あげるため</label>
-                <label><input type="radio" name="question14" value="D" disabled="">あげるつもり</label></div>
-                <div class="question">
-                <p>３．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：スカートが　きれいですね。<br>
-                B：ありがとう　ございます。<br>
-                A：どこで買ったんですか？<br>
-                B：これは　(　　　　)、姉が　くれたんです。<br>
-                </p>
-                
-                  
-                <label><input type="radio" name="question15" value="A" disabled="">買わなかったんで</label>
-                <label><input type="radio" name="question15" value="B" disabled="">買わないでいて</label>
-                <label><input type="radio" name="question15" value="C" disabled="">買ったんではなく</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question15" value="D" disabled="">買うものではなく</label></div>
-                <div class="question">
-                <p>４．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：趣味は　何ですか。<br>
-                B：小説を　読む　ことです。<br>
-                A：いつも　小説を　読んで　いるんですか。<br>
-                B：ええ。毎晩　寝る　前に　
-　　少しでも　好きな　小説を(　　　　)。<br>
-                </p>
-                
-                  
-                <label><input type="radio" name="question16" value="A" disabled="">読んでいる　ことがあります</label>
-                <label><input type="radio" name="question16" value="B" disabled="">読めるように　なっています</label>
-                <label style="color: green;"><input type="radio" name="question16" value="C" disabled="">読むように　しています
-                </label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question16" value="D" disabled="">読んだことが　あります</label></div>
-                <div class="question">
-                <p>５．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：田中さんに　車を　貸したと　聞きましたよ。<br>
-                B：ええ。彼女が　車を　(　　　　)　というので、
-　   貸して　あげました。<br>
-                A：そうですか。どのくらい　貸しますか？<br>
-                B：3日間　貸します。<br>
-                </p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question17" value="A" disabled="">貸したい</label>
-                <label><input type="radio" name="question17" value="B" disabled="">借りたい</label>
-                <label><input type="radio" name="question17" value="C" disabled="">あげたい</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question17" value="D" disabled="">もらいたい</label></div>
-                <div class="question">
-                <p>６．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：すみません。遅れました。<br>
-                B：どうして　遅れたのですか。<br>
-                A：いつも　夜　おそくまで　べんきょうするから、
-　　朝　眠くて　(　　　　)。<br>
-                B：そうですか。次から　気をつけて　くださいね。<br>
-                </p>
-                
-                  
-                <label><input type="radio" name="question18" value="A" disabled="">はやく　起こして　いたんです</label>
-                <label><input type="radio" name="question18" value="B" disabled="">おそく　起きて　いたんです</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question18" value="C" disabled="">どうしても　起こそうとしません
-                </label>
-                <label style="color: green;"><input type="radio" name="question18" value="D" disabled="">なかなか　起きられないのです
-                </label></div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>表現</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：お正月の休みは何日でしたか。<br>
-                B：今年は３日間(　　　　)ありませんでした。<br>
-                A：そうですね。<br></p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question19" value="A" disabled="">しか</label>
-                <label><input type="radio" name="question19" value="B" disabled="">だけ</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question19" value="C" disabled="">ぜんぜん</label>
-                <label><input type="radio" name="question19" value="D" disabled="">あまり</label></div>
-                <div class="question">
-                <p>２．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：カラオケコンテストが何時に始まるか知っていますか。<br>
-                B：いいえ、わかりません。<br>
-                A：じゃあ、受付(　　　)聞いてみましょう。<br>
-                B：そうですね。<br></p>
-                
-                  
-                <label><input type="radio" name="question20" value="A" disabled="">を</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question20" value="B" disabled="">から</label>
-                <label style="color: green;"><input type="radio" name="question20" value="C" disabled="">に</label>
-                <label><input type="radio" name="question20" value="D" disabled="">が</label></div>
-                <div class="question">
-                <p>３．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：これから　山本さんと外に食事に行くんですが、いっしょにどうですか。<br>
-                B：すみません。今日はおべんとうなので・・・。
-      (　　　　　　)、お願いします。<br>
-                A：そうですか。ざんねん。<br>
-                B：　すみません。<br></p>
-                
-                  
-                <label><input type="radio" name="question21" value="A" disabled="">こちらこそ</label>
-                <label><input type="radio" name="question21" value="B" disabled="">わかりました</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question21" value="C" disabled="">またこんど</label>
-                <label><input type="radio" name="question21" value="D" disabled="">もういちど</label></div>
-                <div class="question">
-                <p>４．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：すみません。<br>
-                B：はい、なんですか。<br>
-                A：その写真を　ちょっと　(　　　　　)<br>
-                B：いいですよ。どうぞ。<br></p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question22" value="A" disabled="">見せてくださいませんか</label>
-                <label><input type="radio" name="question22" value="B" disabled="">見てはどうでしょうか　</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question22" value="C" disabled="">見させなくてはいけませんか</label>
-                <label><input type="radio" name="question22" value="D" disabled="">見たらいかがです</label></div>
-                <div class="question">
-                <p>５．会話を読んで、一番いいものを一つえらんでください。<br>
-                A：はじめまして。<br>
-                B：こちらこそ、はじめまして。<br>
-                A：あなたはどの国からいらっしゃったんですか。<br>
-                B：私は中国から(　　　　　　)<br></p>
-                
-                  
-                <label><input type="radio" name="question23" value="A" disabled="">いらっしゃいました</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question23" value="B" disabled="">おいでになりました</label>
-                <label style="color: green;"><input type="radio" name="question23" value="C" disabled="">まいりました</label>
-                <label><input type="radio" name="question23" value="D" disabled="">おりました</label></div>
-                <div class="question">
-                <p>６．会話を読んで、一番いいものを一つえらんでください<br>
-                A：この薬を飲まなければならないのですか。<br>
-                B：いいえ、(　　　　　)。　<br></p>
-                
-                  
-                <label><input type="radio" name="question24" value="A" disabled="">飲まなくてはいけません</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question24" value="B" disabled="">飲まないといけません</label>
-                <label><input type="radio" name="question24" value="C" disabled="">飲んだらいいです</label>
-                <label style="color: green;"><input type="radio" name="question24" value="D" disabled="">飲まなくてもいいです。</label></div></div>
-                    <div class="title">
-                        <p>読解</p>
-                    </div><div class="group">
-                      <div class="title-group">
-                        <p><b>問１.</b><br> <span class="sub-title">こくさいフェスティバルがおこなわれました。　<br>
-　２月２４日（日）文化ホール<br>
-午前は世界の歌とおどりのステージや世界のがっきコンサートがおこなわれました。コンサートではおきゃくさんががっきをたいけんするコーナーもありました。外の広場はいろいろな国の食べ物やアクセサリーが売られていました。<br>
-午後のスピーチコンテスㇳでは日本の人は外国語で、外国の人は日本語で　話しました。ゆうしょうしたベトナムのホアさんは、「スピーチは　初めてでしたが、うまく話せました。私は日本でのおもしろいけいけんについて話しました。みんな　たくさんわらってくれて、よかったです。それから、私の国のことばでスピーチをしている日本の人がいて、びっくりしました。」と話していました。<br>
-                </span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１）フェスティバルに　行った　人は　何が　できましたか。</p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question25" value="A" disabled="">歌とおどりを見ること</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question25" value="B" disabled="">がっきを買うこと</label>
-                <label><input type="radio" name="question25" value="C" disabled="">アクセサリーを作ること</label>
-                </div>
-                <div class="question">
-                <p>２）ホアさんは　スピーチコンテストに　参加して　どう　思いましたか。</p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question26" value="A" disabled="">スピーチのけいけんがなかったけど、うまくいった</label>
-                <label><input type="radio" name="question26" value="B" disabled="">自分のスピーチをわらわれて、かなしかった</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question26" value="C" disabled="">日本人の英語のスピーチが上手で、びっくりした</label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>問２.</b><br> <span class="sub-title">ロボットそうじき<br>
-私がホームスティをしている家には、私の国では見たことない<strong><u>①そうじき</u></strong>があります。形は丸くてUFOのようです。それが部屋の中を行ったり来たりして動いているのをはじめてみたとき、私は、何をしているか分かりませんでした。ホームスティのお母さんが、そうじきだと教えてくれました。「ロボットそうじき」といって、人が持たなくてもいいそうじきです。このそうじきは部屋のすみのゴミも集めて吸ってくれます。ソファの下にも入っていって、ていねいにそうじしてくれます。とても便利だと思いました。<br>
-                <strong><u>②とてもびっくりしたこと</u></strong>があります。このそうじきが２階のろうかをそうじしていて階段のほうに行ったとき、私は「あーっ！落ちる」と大きい声を出してしまいました。ところが落ちなかったんです。本当におどろきました。ロボットそうじきは階段まで行っても落ちないで、行ったり来たりして、ろうかをきれいにそうじしました。重いそうじきを持ったりんだりしなくてもいいし、きれいにそうじしてくれるので、いつか国の母に、このロボットそうじきをプレゼントしたいと思っています。<br>
-                </span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１）①どんな「そうじき」ですか。</p>
-                
-                  
-                <label><input type="radio" name="question27" value="A" disabled="">ロボットの形をしています。</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question27" value="B" disabled="">階段をきれいにそうじします。
-                </label>
-                <label style="color: green;"><input type="radio" name="question27" value="C" disabled="">人が持たなくてもうごきます。</label>
-                </div>
-                <div class="question">
-                <p>２）「②<strong><u>とてもびっくりしたこと</u></strong>。」とありますが、何にびっくりしましたか。</p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question28" value="A" disabled="">ロボットそうじきが、階段から落ちなかったこと</label>
-                <label><input type="radio" name="question28" value="B" disabled="">ロボットそうじきが、階段をおりたこと
-                </label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question28" value="C" disabled="">ロボットそうじきが、きれいにそうじすること</label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>問３.</b><br> <span class="sub-title">スポーツクラブで働いています。<br>
-私はスポーツクラブで働いています。朝、会員の人たちが来る前に、するためのきかいが正しくうごくかどうかのチェックをします。チェックしてどこか変なところがあるときは、そのきかいのことをよく知っている人にべてもらいます。それが終わったら、受付に座ります。会員の人たちが来たら、カードにスタンプを押します。私は会員の人たちにできるだけ元気な声で「おはようございます。」「おつかれさまでした。」と、あいさつするようにしています。<br>
-午前中はずっとにいますが、午後からは、運動している会員の人たちにきかいの使い方を説明したり、上手に使えるようにアドバイスをしたり、しています。運動以外のことでいろいろな話をすることもあり、これが一番楽しいです。私の知らないことを教えてもらったり、私の日本語を注意してもらったり、勉強になることも多いです。<br>
-                </span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１）この人がスポーツクラブでしないことはどれですか。</p>
-                
-                  
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question29" value="A" disabled="">きかいが正しく動くか調べます。</label>
-                <label style="color: green;"><input type="radio" name="question29" value="B" disabled="">きかいが正しく動かないときに直します。</label>
-                <label><input type="radio" name="question29" value="C" disabled="">会員に運動のアドバイスをします。</label>
-                </div>
-                <div class="question">
-                <p>２）この人が一番楽しいと思っていることはどれですか。</p>
-                
-                  
-                <label><input type="radio" name="question30" value="A" disabled="">会員の人たちに元気な声であいさつすること</label>
-                <label><input type="radio" name="question30" value="B" disabled="">会員の人たちにアドバイスすること</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question30" value="C" disabled="">会員の人たちといろいろな話をすること
-                </label>
-                </div></div>
-                    <div class="title">
-                        <p>読解（情報検索）</p>
-                    </div><div class="group">
-                      <div class="title-group">
-                        <p><b>問題１．次の動物園の「ぞうのショー」のお知らせを見て、質問に答えてください。答えは１．２．３からいちばんいいものを一つ選んでください。</b><br> <span class="sub-title"><style>
-table, tr, td {
-  border: 1.5px solid black;
-  border-collapse: collapse;
-  font-weight: normal;
-  padding: 15px 15px; 
-  background-color: white;
-  color: black;
-}
-</style>
-                </span></p><table>
-<tbody><tr>
-<td>
-<div style="text-align:center; font-size: 20px;"><strong>「ぞうのショー」</strong></div><br>
-<div style="text-align:center;">そうがサッカーをしたり、ダンスをしたりします。<br></div>
-<div style="text-align:center;">そうに乗ったり、一緒に写真をとったりすることもできますよ。</div><br>
-<br>
-<div style="text-align:center;"><strong> ショーのスケジュール</strong></div>
-<div style="padding:10px; ">
-<table>
-  <tbody><tr>
-    <td> 月曜日〜金曜日</td>
-    <td> 1回目  11:00</td>
-    <td> 2回目  14:00</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td>土曜日、日曜日、祝日</td>
-    <td>1回目  11:00</td>
-    <td>2回目  13:00</td>
-    <td>3回目  15:30</td>
-  </tr>
-</tbody></table>
-ショーの時間は20分くらいです。<br>
-</div>
-<br>
-<div style="text-align:center;"><strong>ショーが終わったから</strong></div>
-   <div style="padding:5px;"> ● ぞうに、にんじんやバナナをあげることができます。
-　 あやつ（※1）バケツ（一つ分¥500）は、ショー広場（※2）で売っています。<br>
-    ● ぞうの背中に乗って散歩することができます。（3人まで乗ることができます。）<br>
-    ● チケットがいります。ショーの始まる30分前までに動物園の入り口で買ってください。<br>
-<br>
- （写真あり¥2,500 写真なし¥2,000）<br>
-</div>
-</td>
-</tr>
-</tbody></table>
-<p></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>問１
-写真はいらないけれど、おやつをあげてぞうのせなかにのりたい人はいくらはらいますか。
-                </p>
-                
-                  
-                <label><input type="radio" name="question31" value="A" disabled="">500</label>
-                <label><input type="radio" name="question31" value="B" disabled="">2000</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question31" value="C" disabled="">2500</label>
-                </div>
-                <div class="question">
-                <p>問２午前中にぞうに乗りたい人は、どうすればいいですか。
-                </p>
-                
-                  
-                <label><input type="radio" name="question32" value="A" disabled="">10時半までにショー広場でチケットをかいます。</label>
-                <label style="color: green;"><input type="radio" name="question32" value="B" disabled="">10時半までに動物園の入り口でチケットをかいます。</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question32" value="C" disabled="">11時半までにショー広場でチケットをかいます。</label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>問題２．次のコインランドリーの使い方の表を見て、質問に答えてください。答えは１．２．３からいちばんいいものを一つ選んでください。</b><br> <span class="sub-title"><style>
-table, th, td {
-  border: 1.5px solid black;
-  border-collapse: collapse;
-  font-weight: normal;
-  padding: 15px 15px; 
-  background-color: white;
-  color: black;
-}
-</style>
-                </span></p><table>
-<tbody><tr>
-<td>
-
-<div style="text-align:center; font-size:20px;"><strong>コインランドリー（※1）の使い方</strong></div><br>
-<div style="padding:10px;">
-● 家で洗えない毛布やカーテン、カーペットなども洗えます！<br>
-● 使い方は簡単！洗濯物を入れて、コースを選んで、お金を入れるだけ！
-<div style="padding:30px;">
-<table style="text-align:center;">
-  <tbody><tr>
-    <th>コース</th>
-    <th>内容</th>
-    <th>かかる時間</th>
-    <th>時間</th>
-    <th>料金</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>洗濯＋乾燥（※2）</td>
-    <td>60分</td>
-    <td>1,200円</td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>洗濯＋乾燥</td>
-    <td>50分</td>
-    <td>1,000円</td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>洗濯だけ</td>
-    <td>40分</td>
-    <td>800円</td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>乾燥だけ</td>
-    <td>10分</td>
-    <td>100円</td>
-  </tr>
-</tbody></table>
-</div>
-* コース4は100円を入れると10分の乾燥、200円を入れると20分の乾燥となります。<br>
-   コース1、またはコース2が終わったあと、もっと乾燥したいときに使えます。<br>
-
-<u>注意！お金を入れる前に、かならずコースを選んでください。</u>
-</div>
-</td>
-</tr>
-</tbody></table><p></p>
-                        <img decoding="async" class="question-img" src="assets/JFT-01_DK_mon2.png" alt="Image for question 34">
-                         
-                      </div>
-                <div class="question">
-                <p>問１
-水曜日に、６０分のコースを選んだあと、もう20分乾燥したいたい人は　全部でいくら　はらいますか。</p>
-                
-                  
-                <label><input type="radio" name="question33" value="A" disabled="">500</label>
-                <label><input type="radio" name="question33" value="B" disabled="">600</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question33" value="C" disabled="">700</label>
-                </div>
-                <div class="question">
-                <p>問２
-このコインランドリーで、<strong><u>できない</u></strong>ことは　どれですか。</p>
-                
-                  
-                <label style="color: green;"><input type="radio" name="question34" value="A" disabled="">洗濯だけを1時間する。</label>
-                <label><input type="radio" name="question34" value="B" disabled="">カーペットを洗う
-                </label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question34" value="C" disabled="">コース１を2回する
-                </label>
-                </div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>問題３．次のページのA「お買い物ポイント・カード」と　B　の、レシートを見て、質問に答えてください。答えは１．２．３からいちばんいいものを一つえらんでください。
-
-                </b><br> <span class="sub-title"><style>
-table, th, td {
-  border: 1.5px solid black;
-  border-collapse: collapse;
-  font-weight: normal;
-  padding: 15px 15px; 
-  background-color: white;
-  color: black;
- width:auto;
-}
-</style>
-                </span></p><h2 style="color:black;">A</h2>
-
-<table>
-<tbody><tr>
-<td>　
-<div style="text-align:center; font-size:20px;"><strong>★お買い物ポイント・カード</strong></div>
-
-お買い物をするとき、このカードを店員にお見せください。<br>
-100円のお買い物で5ポイント（5点）を差し上げます。<br>
-99円までのお買い物にはポイントがつきません。<br>
-毎週、木曜日はポイント2ばいになります。<br>
-毎月「8」のつく日に100円以上お買い物をなさった方には、<br>
-上のポイントとは別に10ポイントをさしあげます。<br>
-100ポイントで100円のお買い物ができます。<br>
-ポイントは、このカードを作った日から1年以内に<br>
-ごりようください。<br>
-1年をすぎるとポイントがぜんぶ使えなくなします。<br>
-
-★ごこのカードを作った日★<br>
-2010年10月10日<br>
-</td>
-</tr>
-</tbody></table>
-<br>
-<br>
+  <!-- Embed nguyên nội dung data.txt để chạy được cả khi mở file trực tiếp (không cần fetch). -->
+  <template id="dataTemplate">
+    <div id="questionContainer">
+      <div class="title">
+        <p>文字と語彙</p>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問題１。絵を見て、語の意味を一つ選んでください。</b><br> <span class="sub-title"></span></p>
 
 
+        </div>
+        <div class="question">
+          <p>問１：</p>
+          <img decoding="async" class="question-img" src="assets/BG_1－1.png" alt="Image for question 2">
 
-<h2 style="color:black;">B</h2>
-<table>
-<tbody><tr>
-<td>　
-<div style="text-align:center; font-size:20px;"><strong>コンビニあるく</strong><br>
-電話 03-3323-xxxx</div><br>
-<br>
-2011年 9月 8日(木) 17時 07分<br>
-クーピー牛乳 100円<br>
-カレーパン 120円<br>
-雑誌240円<br>
-合計 460円<br>
-<br>
-ご来店ありがとうございました。<br>
-</td>
-</tr>
-</tbody></table><p></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>問１
-B の買い物は、何ポイント（なんてん）もらえますか。
-                </p>
-                
-                  
-                <label><input type="radio" name="question35" value="A" disabled="">20</label>
-                <label><input type="radio" name="question35" value="B" disabled="">23</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question35" value="C" disabled="">50</label>
-                </div>
-                <div class="question">
-                <p>問２
-今日は9月８日。ポイントはいつまで使えますか。
-                </p>
-                
-                  
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question36" value="A" disabled="">これから1週間ぐらい</label>
-                <label style="color: green;"><input type="radio" name="question36" value="B" disabled="">これから１ヵ月ぐらい　</label>
-                <label><input type="radio" name="question36" value="C" disabled="">これから６ヵ月ぐらい</label>
-                </div></div>
-                    <div class="title">
-                        <p>聴解</p>
-                    </div><div class="group">
-                      <div class="title-group">
-                        <p><b>問題１：もんだい１では、はじめに質問を聞いてください。それから話を聞いて、もんだいようし１から４の中から、一番いいものを一つえらんでください。
+          <label><input type="radio" name="question1" value="A" disabled="">なきます
+          </label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question1" value="B"
+              disabled="">おこります</label>
+          <label style="color: green;"><input type="radio" name="question1" value="C" disabled="">わらいます</label>
+        </div>
+        <div class="question">
+          <p>問２：</p>
+          <img decoding="async" class="question-img" src="assets/BG_1-2.png" alt="Image for question 3">
 
-                </b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>１ばん</p>
-                <img decoding="async" class="question-img" src="assets/CK_1-1.png" alt="Image for question 38">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/1.1.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question37" value="A" disabled="">1</label>
-                <label><input type="radio" name="question37" value="B" disabled="">2</label>
-                <label><input type="radio" name="question37" value="C" disabled="">3</label>
-                <label><input type="radio" name="question37" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>２ばん</p>
-                <img decoding="async" class="question-img" src="assets/CK_1-2.png" alt="Image for question 39">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/1.2.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question38" value="A" disabled="">1</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question38" value="B" disabled="">2</label>
-                <label style="color: green;"><input type="radio" name="question38" value="C" disabled="">3</label>
-                <label><input type="radio" name="question38" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>３ばん</p>
-                <img decoding="async" class="question-img" src="assets/CK_1-3.png" alt="Image for question 40">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/1.3.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question39" value="A" disabled="">1</label>
-                <label style="color: green;"><input type="radio" name="question39" value="B" disabled="">2</label>
-                <label><input type="radio" name="question39" value="C" disabled="">3</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question39" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>４ばん</p>
-                <img decoding="async" class="question-img" src="assets/CK_1-4.png" alt="Image for question 41">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/1.4.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question40" value="A" disabled="">1</label>
-                <label><input type="radio" name="question40" value="B" disabled="">2</label>
-                <label style="color: green;"><input type="radio" name="question40" value="C" disabled="">3</label>
-                <label><input type="radio" name="question40" value="D" disabled="">4</label></div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>聴解　内容理解(店・交通機関)</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>問題1</p>
-                <img decoding="async" class="question-img" src="assets/CK_2-1.png" alt="Image for question 42">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/2.1.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question41" value="A" disabled="">1</label>
-                <label><input type="radio" name="question41" value="B" disabled="">2</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question41" value="C" disabled="">3</label>
-                <label style="color: green;"><input type="radio" name="question41" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>問題2</p>
-                
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/2.2.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label style="color: green;"><input type="radio" name="question42" value="A" disabled="">かるい　けいたいでんわ</label>
-                <label><input type="radio" name="question42" value="B" disabled="">サイズが　おおきい　けいたいでんわ
-                </label>
-                <label><input type="radio" name="question42" value="C" disabled="">いろいろ　できる　けいたいでんわ</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question42" value="D" disabled="">しゃしんが　きれいに　とれる　けいたいでんわ</label></div>
-                <div class="question">
-                <p>問題3</p>
-                <img decoding="async" class="question-img" src="assets/CK_2-3.png" alt="Image for question 44">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/2.3.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question43" value="A" disabled="">1</label>
-                <label><input type="radio" name="question43" value="B" disabled="">2</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question43" value="C" disabled="">3</label>
-                <label style="color: green;"><input type="radio" name="question43" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>問題4</p>
-                
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/2.4.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question44" value="A" disabled="">10分後</label>
-                <label style="color: green;"><input type="radio" name="question44" value="B" disabled="">20分後</label>
-                <label><input type="radio" name="question44" value="C" disabled="">35分後</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question44" value="D" disabled="">50分後</label></div></div><div class="group">
-                      <div class="title-group">
-                        <p><b>内容理解(指示・アナウンス)</b><br> <span class="sub-title"></span></p>
-                        
-                         
-                      </div>
-                <div class="question">
-                <p>問題1</p>
-                <img decoding="async" class="question-img" src="assets/CK_3-1.png" alt="Image for question 46">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/3.1.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question45" value="A" disabled="">1</label>
-                <label style="color: green;"><input type="radio" name="question45" value="B" disabled="">2</label>
-                <label><input type="radio" name="question45" value="C" disabled="">3</label>
-                <label><input type="radio" name="question45" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>問題2</p>
-                <img decoding="async" class="question-img" src="assets/CK_3-2.png" alt="Image for question 47">
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/3.2.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question46" value="A" disabled="">1</label>
-                <label><input type="radio" name="question46" value="B" disabled="">2</label>
-                <label><input type="radio" name="question46" value="C" disabled="">3</label>
-                <label class="selected-answer" style="color: green;"><input type="radio" name="question46" value="D" disabled="">4</label></div>
-                <div class="question">
-                <p>問題3</p>
-                
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/3.3.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label><input type="radio" name="question47" value="A" disabled="">火曜日と　木曜日</label>
-                <label><input type="radio" name="question47" value="B" disabled="">火曜日と　木曜日と　金曜日
-                </label>
-                <label style="color: green;"><input type="radio" name="question47" value="C" disabled="">火曜日と　木曜日と　金曜日と　土曜日</label>
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question47" value="D" disabled="">火曜日と　木曜日と　金曜日と　土曜日と　日曜日
-                </label></div>
-                <div class="question">
-                <p>問題4</p>
-                
-                <div class="audio-player"><audio controls="" controlslist="nodownload"><source src="assets/3.4.mp3" type="audio/mpeg"></audio>
-                </div>  
-                <label class="selected-answer" style="color: red;"><input type="radio" name="question48" value="A" disabled="">機械で　探す</label>
-                <label style="color: green;"><input type="radio" name="question48" value="B" disabled="">係の　人に　言う
-                </label>
-                <label><input type="radio" name="question48" value="C" disabled="">ほかの　図書館に　行く
-                </label>
-                <label><input type="radio" name="question48" value="D" disabled="">本屋で　買う</label></div></div></div>
-    </template>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question2" value="A"
+              disabled="">そうじします</label>
+          <label><input type="radio" name="question2" value="B" disabled="">せんたくします
+          </label>
+          <label><input type="radio" name="question2" value="C" disabled="">かたづけます</label>
+        </div>
+        <div class="question">
+          <p>問３：</p>
+          <img decoding="async" class="question-img" src="assets/BG_1-3.png" alt="Image for question 4">
 
-    <script>
-      const fullNameEl = document.getElementById("fullName");
-      const nameHintEl = document.getElementById("nameHint");
-      const allAnsweredHintEl = document.getElementById("allAnsweredHint");
-      const submitBtn = document.getElementById("submitBtn");
-      const resetBtn = document.getElementById("resetBtn");
-      const resultEl = document.getElementById("result");
-      const mountEl = document.getElementById("mount");
-      const dataTpl = document.getElementById("dataTemplate");
+          <label><input type="radio" name="question3" value="A" disabled="">はらいます</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question3" value="B"
+              disabled="">きんちょうします</label>
+          <label style="color: green;"><input type="radio" name="question3" value="C" disabled="">ちょきんします</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問題２　 ( ) になにをいれますか。いちばんいいものを一つえらんでください。</b><br> <span class="sub-title"></span></p>
 
-      function normalizeAndExtractAnswers(root) {
-        const questions = Array.from(root.querySelectorAll(".question"));
-        for (const q of questions) {
-          q.classList.remove("q-correct", "q-wrong", "q-missing");
-          q.removeAttribute("data-correct");
-          const labels = Array.from(q.querySelectorAll("label"));
-          let correctValue = null;
 
-          for (const lb of labels) {
-            const input = lb.querySelector('input[type="radio"]');
-            if (!input) continue;
+        </div>
+        <div class="question">
+          <p>１．31日までに電話代を　( ) なければなりません。</p>
 
-            // Identify correct answer: label has inline style containing 'green'
-            const style = (lb.getAttribute("style") || "").toLowerCase();
-            if (style.includes("green")) correctValue = input.value;
 
-            // Make selectable
-            input.disabled = false;
-            input.checked = false;
+          <label><input type="radio" name="question4" value="A" disabled="">よら</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question4" value="B"
+              disabled="">とどけ</label>
+          <label style="color: green;"><input type="radio" name="question4" value="C" disabled="">はらわ</label>
+        </div>
+        <div class="question">
+          <p>２．この肉は　とても　（　　　　　）です。</p>
 
-            // Remove old "answer key" hints from data.txt
-            lb.classList.remove("selected-answer");
-            lb.removeAttribute("style");
-            lb.classList.remove("opt-correct", "opt-wrong");
-          }
 
-          if (correctValue) q.dataset.correct = correctValue;
+          <label><input type="radio" name="question5" value="A" disabled="">ふかい</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question5" value="B"
+              disabled="">やわらかい</label>
+          <label><input type="radio" name="question5" value="C" disabled="">ただしい</label>
+        </div>
+        <div class="question">
+          <p>３．りょうりをしているとき、（　　　　　）を　きってしまいました。
+          </p>
+
+
+          <label style="color: green;"><input type="radio" name="question6" value="A" disabled="">ゆび</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question6" value="B"
+              disabled="">ひげ</label>
+          <label><input type="radio" name="question6" value="C" disabled="">かみ</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>題３：＿＿のことばはひらがなでどうかきますか。１．２．３．からいちばんいいものを一つえらんでください。</b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１：<strong><u>水道</u></strong>がこわれたときは,ここにでんわしてください。</p>
+
+
+          <label><input type="radio" name="question7" value="A" disabled="">すいとう</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question7" value="B"
+              disabled="">すいどう</label>
+          <label><input type="radio" name="question7" value="C" disabled="">ずいどう</label>
+        </div>
+        <div class="question">
+          <p>２：そのスカートは、ちょっと<strong><u>短い</u></strong>と思う。</p>
+
+
+          <label><input type="radio" name="question8" value="A" disabled="">こい</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question8" value="B"
+              disabled="">ふとい</label>
+          <label><input type="radio" name="question8" value="C" disabled="">みじかい</label>
+        </div>
+        <div class="question">
+          <p>３：夏休みのよていが<strong><u>決まりましたか</u></strong>。</p>
+
+
+          <label><input type="radio" name="question9" value="A" disabled="">あつまりました</label>
+          <label><input type="radio" name="question9" value="B" disabled="">きまりました</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question9" value="C"
+              disabled="">とまりました</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>題４　　文をよんで、いちばんいいものを一つえらんでください。</b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１．パソコンが　（　　　）なりました。</p>
+
+
+          <label><input type="radio" name="question10" value="A" disabled="">働かない</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question10" value="B"
+              disabled="">働かなく</label>
+          <label><input type="radio" name="question10" value="C" disabled="">通かなく</label>
+        </div>
+        <div class="question">
+          <p>２．あめ　が　（　　　　　）なったので、買い物に出かけました。</p>
+
+
+          <label style="color: green;"><input type="radio" name="question11" value="A" disabled="">弱く</label>
+          <label><input type="radio" name="question11" value="B" disabled="">強く</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question11" value="C"
+              disabled="">軽く</label>
+        </div>
+        <div class="question">
+          <p>３．あついので、かみ　を（　　　　　）しました。</p>
+
+
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question12" value="A"
+              disabled="">涼しく</label>
+          <label><input type="radio" name="question12" value="B" disabled="">低く</label>
+          <label style="color: green;"><input type="radio" name="question12" value="C" disabled="">短く</label>
+        </div>
+      </div>
+      <div class="title">
+        <p>会話・表現</p>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>文法</b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>問１．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：お酒は　しばらく　やめて　ください。<br>
+            B：えっ、お酒を　(　　　　)は　いけないんですか。<br>
+            A：ええ。病気がなおるまでだめですよ。<br>
+            B：わかりました。<br>
+          </p>
+
+
+          <label><input type="radio" name="question13" value="A" disabled="">飲みて</label>
+          <label><input type="radio" name="question13" value="B" disabled="">飲んて</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question13" value="C"
+              disabled="">飲んで</label>
+          <label><input type="radio" name="question13" value="D" disabled="">飲みで</label>
+        </div>
+        <div class="question">
+          <p>２．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：えみさん、ちょっと　聞いても　いいですか。<br>
+            B：なんですか。<br>
+            A：会社の　せんぱいに　お子さんが　生まれたので、
+            　 お祝いに　何か　(　　　　　)　と思うんですが、
+            　 いくらぐらいの　ものが　いいですか？<br>
+            B：そうですね。会社の人には　だいたい5000円
+            　　ぐらいの　もの　ですね。<br>
+          </p>
+
+
+          <label><input type="radio" name="question14" value="A" disabled="">あげない</label>
+          <label style="color: green;"><input type="radio" name="question14" value="B" disabled="">あげよう</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question14" value="C"
+              disabled="">あげるため</label>
+          <label><input type="radio" name="question14" value="D" disabled="">あげるつもり</label>
+        </div>
+        <div class="question">
+          <p>３．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：スカートが　きれいですね。<br>
+            B：ありがとう　ございます。<br>
+            A：どこで買ったんですか？<br>
+            B：これは　(　　　　)、姉が　くれたんです。<br>
+          </p>
+
+
+          <label><input type="radio" name="question15" value="A" disabled="">買わなかったんで</label>
+          <label><input type="radio" name="question15" value="B" disabled="">買わないでいて</label>
+          <label><input type="radio" name="question15" value="C" disabled="">買ったんではなく</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question15" value="D"
+              disabled="">買うものではなく</label>
+        </div>
+        <div class="question">
+          <p>４．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：趣味は　何ですか。<br>
+            B：小説を　読む　ことです。<br>
+            A：いつも　小説を　読んで　いるんですか。<br>
+            B：ええ。毎晩　寝る　前に　
+            　　少しでも　好きな　小説を(　　　　)。<br>
+          </p>
+
+
+          <label><input type="radio" name="question16" value="A" disabled="">読んでいる　ことがあります</label>
+          <label><input type="radio" name="question16" value="B" disabled="">読めるように　なっています</label>
+          <label style="color: green;"><input type="radio" name="question16" value="C" disabled="">読むように　しています
+          </label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question16" value="D"
+              disabled="">読んだことが　あります</label>
+        </div>
+        <div class="question">
+          <p>５．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：田中さんに　車を　貸したと　聞きましたよ。<br>
+            B：ええ。彼女が　車を　(　　　　)　というので、
+            　 貸して　あげました。<br>
+            A：そうですか。どのくらい　貸しますか？<br>
+            B：3日間　貸します。<br>
+          </p>
+
+
+          <label style="color: green;"><input type="radio" name="question17" value="A" disabled="">貸したい</label>
+          <label><input type="radio" name="question17" value="B" disabled="">借りたい</label>
+          <label><input type="radio" name="question17" value="C" disabled="">あげたい</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question17" value="D"
+              disabled="">もらいたい</label>
+        </div>
+        <div class="question">
+          <p>６．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：すみません。遅れました。<br>
+            B：どうして　遅れたのですか。<br>
+            A：いつも　夜　おそくまで　べんきょうするから、
+            　　朝　眠くて　(　　　　)。<br>
+            B：そうですか。次から　気をつけて　くださいね。<br>
+          </p>
+
+
+          <label><input type="radio" name="question18" value="A" disabled="">はやく　起こして　いたんです</label>
+          <label><input type="radio" name="question18" value="B" disabled="">おそく　起きて　いたんです</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question18" value="C"
+              disabled="">どうしても　起こそうとしません
+          </label>
+          <label style="color: green;"><input type="radio" name="question18" value="D" disabled="">なかなか　起きられないのです
+          </label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>表現</b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：お正月の休みは何日でしたか。<br>
+            B：今年は３日間(　　　　)ありませんでした。<br>
+            A：そうですね。<br></p>
+
+
+          <label style="color: green;"><input type="radio" name="question19" value="A" disabled="">しか</label>
+          <label><input type="radio" name="question19" value="B" disabled="">だけ</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question19" value="C"
+              disabled="">ぜんぜん</label>
+          <label><input type="radio" name="question19" value="D" disabled="">あまり</label>
+        </div>
+        <div class="question">
+          <p>２．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：カラオケコンテストが何時に始まるか知っていますか。<br>
+            B：いいえ、わかりません。<br>
+            A：じゃあ、受付(　　　)聞いてみましょう。<br>
+            B：そうですね。<br></p>
+
+
+          <label><input type="radio" name="question20" value="A" disabled="">を</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question20" value="B"
+              disabled="">から</label>
+          <label style="color: green;"><input type="radio" name="question20" value="C" disabled="">に</label>
+          <label><input type="radio" name="question20" value="D" disabled="">が</label>
+        </div>
+        <div class="question">
+          <p>３．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：これから　山本さんと外に食事に行くんですが、いっしょにどうですか。<br>
+            B：すみません。今日はおべんとうなので・・・。
+            (　　　　　　)、お願いします。<br>
+            A：そうですか。ざんねん。<br>
+            B：　すみません。<br></p>
+
+
+          <label><input type="radio" name="question21" value="A" disabled="">こちらこそ</label>
+          <label><input type="radio" name="question21" value="B" disabled="">わかりました</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question21" value="C"
+              disabled="">またこんど</label>
+          <label><input type="radio" name="question21" value="D" disabled="">もういちど</label>
+        </div>
+        <div class="question">
+          <p>４．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：すみません。<br>
+            B：はい、なんですか。<br>
+            A：その写真を　ちょっと　(　　　　　)<br>
+            B：いいですよ。どうぞ。<br></p>
+
+
+          <label style="color: green;"><input type="radio" name="question22" value="A" disabled="">見せてくださいませんか</label>
+          <label><input type="radio" name="question22" value="B" disabled="">見てはどうでしょうか　</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question22" value="C"
+              disabled="">見させなくてはいけませんか</label>
+          <label><input type="radio" name="question22" value="D" disabled="">見たらいかがです</label>
+        </div>
+        <div class="question">
+          <p>５．会話を読んで、一番いいものを一つえらんでください。<br>
+            A：はじめまして。<br>
+            B：こちらこそ、はじめまして。<br>
+            A：あなたはどの国からいらっしゃったんですか。<br>
+            B：私は中国から(　　　　　　)<br></p>
+
+
+          <label><input type="radio" name="question23" value="A" disabled="">いらっしゃいました</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question23" value="B"
+              disabled="">おいでになりました</label>
+          <label style="color: green;"><input type="radio" name="question23" value="C" disabled="">まいりました</label>
+          <label><input type="radio" name="question23" value="D" disabled="">おりました</label>
+        </div>
+        <div class="question">
+          <p>６．会話を読んで、一番いいものを一つえらんでください<br>
+            A：この薬を飲まなければならないのですか。<br>
+            B：いいえ、(　　　　　)。　<br></p>
+
+
+          <label><input type="radio" name="question24" value="A" disabled="">飲まなくてはいけません</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question24" value="B"
+              disabled="">飲まないといけません</label>
+          <label><input type="radio" name="question24" value="C" disabled="">飲んだらいいです</label>
+          <label style="color: green;"><input type="radio" name="question24" value="D" disabled="">飲まなくてもいいです。</label>
+        </div>
+      </div>
+      <div class="title">
+        <p>読解</p>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問１.</b><br> <span class="sub-title">こくさいフェスティバルがおこなわれました。　<br>
+              　２月２４日（日）文化ホール<br>
+              午前は世界の歌とおどりのステージや世界のがっきコンサートがおこなわれました。コンサートではおきゃくさんががっきをたいけんするコーナーもありました。外の広場はいろいろな国の食べ物やアクセサリーが売られていました。<br>
+              午後のスピーチコンテスㇳでは日本の人は外国語で、外国の人は日本語で　話しました。ゆうしょうしたベトナムのホアさんは、「スピーチは　初めてでしたが、うまく話せました。私は日本でのおもしろいけいけんについて話しました。みんな　たくさんわらってくれて、よかったです。それから、私の国のことばでスピーチをしている日本の人がいて、びっくりしました。」と話していました。<br>
+            </span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１）フェスティバルに　行った　人は　何が　できましたか。</p>
+
+
+          <label style="color: green;"><input type="radio" name="question25" value="A" disabled="">歌とおどりを見ること</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question25" value="B"
+              disabled="">がっきを買うこと</label>
+          <label><input type="radio" name="question25" value="C" disabled="">アクセサリーを作ること</label>
+        </div>
+        <div class="question">
+          <p>２）ホアさんは　スピーチコンテストに　参加して　どう　思いましたか。</p>
+
+
+          <label style="color: green;"><input type="radio" name="question26" value="A"
+              disabled="">スピーチのけいけんがなかったけど、うまくいった</label>
+          <label><input type="radio" name="question26" value="B" disabled="">自分のスピーチをわらわれて、かなしかった</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question26" value="C"
+              disabled="">日本人の英語のスピーチが上手で、びっくりした</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問２.</b><br> <span class="sub-title">ロボットそうじき<br>
+              私がホームスティをしている家には、私の国では見たことない<strong><u>①そうじき</u></strong>があります。形は丸くてUFOのようです。それが部屋の中を行ったり来たりして動いているのをはじめてみたとき、私は、何をしているか分かりませんでした。ホームスティのお母さんが、そうじきだと教えてくれました。「ロボットそうじき」といって、人が持たなくてもいいそうじきです。このそうじきは部屋のすみのゴミも集めて吸ってくれます。ソファの下にも入っていって、ていねいにそうじしてくれます。とても便利だと思いました。<br>
+              <strong><u>②とてもびっくりしたこと</u></strong>があります。このそうじきが２階のろうかをそうじしていて階段のほうに行ったとき、私は「あーっ！落ちる」と大きい声を出してしまいました。ところが落ちなかったんです。本当におどろきました。ロボットそうじきは階段まで行っても落ちないで、行ったり来たりして、ろうかをきれいにそうじしました。重いそうじきを持ったりんだりしなくてもいいし、きれいにそうじしてくれるので、いつか国の母に、このロボットそうじきをプレゼントしたいと思っています。<br>
+            </span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１）①どんな「そうじき」ですか。</p>
+
+
+          <label><input type="radio" name="question27" value="A" disabled="">ロボットの形をしています。</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question27" value="B"
+              disabled="">階段をきれいにそうじします。
+          </label>
+          <label style="color: green;"><input type="radio" name="question27" value="C"
+              disabled="">人が持たなくてもうごきます。</label>
+        </div>
+        <div class="question">
+          <p>２）「②<strong><u>とてもびっくりしたこと</u></strong>。」とありますが、何にびっくりしましたか。</p>
+
+
+          <label style="color: green;"><input type="radio" name="question28" value="A"
+              disabled="">ロボットそうじきが、階段から落ちなかったこと</label>
+          <label><input type="radio" name="question28" value="B" disabled="">ロボットそうじきが、階段をおりたこと
+          </label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question28" value="C"
+              disabled="">ロボットそうじきが、きれいにそうじすること</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問３.</b><br> <span class="sub-title">スポーツクラブで働いています。<br>
+              私はスポーツクラブで働いています。朝、会員の人たちが来る前に、するためのきかいが正しくうごくかどうかのチェックをします。チェックしてどこか変なところがあるときは、そのきかいのことをよく知っている人にべてもらいます。それが終わったら、受付に座ります。会員の人たちが来たら、カードにスタンプを押します。私は会員の人たちにできるだけ元気な声で「おはようございます。」「おつかれさまでした。」と、あいさつするようにしています。<br>
+              午前中はずっとにいますが、午後からは、運動している会員の人たちにきかいの使い方を説明したり、上手に使えるようにアドバイスをしたり、しています。運動以外のことでいろいろな話をすることもあり、これが一番楽しいです。私の知らないことを教えてもらったり、私の日本語を注意してもらったり、勉強になることも多いです。<br>
+            </span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１）この人がスポーツクラブでしないことはどれですか。</p>
+
+
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question29" value="A"
+              disabled="">きかいが正しく動くか調べます。</label>
+          <label style="color: green;"><input type="radio" name="question29" value="B"
+              disabled="">きかいが正しく動かないときに直します。</label>
+          <label><input type="radio" name="question29" value="C" disabled="">会員に運動のアドバイスをします。</label>
+        </div>
+        <div class="question">
+          <p>２）この人が一番楽しいと思っていることはどれですか。</p>
+
+
+          <label><input type="radio" name="question30" value="A" disabled="">会員の人たちに元気な声であいさつすること</label>
+          <label><input type="radio" name="question30" value="B" disabled="">会員の人たちにアドバイスすること</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question30" value="C"
+              disabled="">会員の人たちといろいろな話をすること
+          </label>
+        </div>
+      </div>
+      <div class="title">
+        <p>読解（情報検索）</p>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問題１．次の動物園の「ぞうのショー」のお知らせを見て、質問に答えてください。答えは１．２．３からいちばんいいものを一つ選んでください。</b><br> <span class="sub-title">
+              <style>
+                table,
+                tr,
+                td {
+                  border: 1.5px solid black;
+                  border-collapse: collapse;
+                  font-weight: normal;
+                  padding: 15px 15px;
+                  background-color: white;
+                  color: black;
+                }
+              </style>
+            </span></p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <div style="text-align:center; font-size: 20px;"><strong>「ぞうのショー」</strong></div><br>
+                  <div style="text-align:center;">そうがサッカーをしたり、ダンスをしたりします。<br></div>
+                  <div style="text-align:center;">そうに乗ったり、一緒に写真をとったりすることもできますよ。</div><br>
+                  <br>
+                  <div style="text-align:center;"><strong> ショーのスケジュール</strong></div>
+                  <div style="padding:10px; ">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <td> 月曜日〜金曜日</td>
+                          <td> 1回目 11:00</td>
+                          <td> 2回目 14:00</td>
+                          <td></td>
+                        </tr>
+                        <tr>
+                          <td>土曜日、日曜日、祝日</td>
+                          <td>1回目 11:00</td>
+                          <td>2回目 13:00</td>
+                          <td>3回目 15:30</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    ショーの時間は20分くらいです。<br>
+                  </div>
+                  <br>
+                  <div style="text-align:center;"><strong>ショーが終わったから</strong></div>
+                  <div style="padding:5px;"> ● ぞうに、にんじんやバナナをあげることができます。
+                    　 あやつ（※1）バケツ（一つ分¥500）は、ショー広場（※2）で売っています。<br>
+                    ● ぞうの背中に乗って散歩することができます。（3人まで乗ることができます。）<br>
+                    ● チケットがいります。ショーの始まる30分前までに動物園の入り口で買ってください。<br>
+                    <br>
+                    （写真あり¥2,500 写真なし¥2,000）<br>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p></p>
+
+
+        </div>
+        <div class="question">
+          <p>問１
+            写真はいらないけれど、おやつをあげてぞうのせなかにのりたい人はいくらはらいますか。
+          </p>
+
+
+          <label><input type="radio" name="question31" value="A" disabled="">500</label>
+          <label><input type="radio" name="question31" value="B" disabled="">2000</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question31" value="C"
+              disabled="">2500</label>
+        </div>
+        <div class="question">
+          <p>問２午前中にぞうに乗りたい人は、どうすればいいですか。
+          </p>
+
+
+          <label><input type="radio" name="question32" value="A" disabled="">10時半までにショー広場でチケットをかいます。</label>
+          <label style="color: green;"><input type="radio" name="question32" value="B"
+              disabled="">10時半までに動物園の入り口でチケットをかいます。</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question32" value="C"
+              disabled="">11時半までにショー広場でチケットをかいます。</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問題２．次のコインランドリーの使い方の表を見て、質問に答えてください。答えは１．２．３からいちばんいいものを一つ選んでください。</b><br> <span class="sub-title">
+              <style>
+                table,
+                th,
+                td {
+                  border: 1.5px solid black;
+                  border-collapse: collapse;
+                  font-weight: normal;
+                  padding: 15px 15px;
+                  background-color: white;
+                  color: black;
+                }
+              </style>
+            </span></p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+
+                  <div style="text-align:center; font-size:20px;"><strong>コインランドリー（※1）の使い方</strong></div><br>
+                  <div style="padding:10px;">
+                    ● 家で洗えない毛布やカーテン、カーペットなども洗えます！<br>
+                    ● 使い方は簡単！洗濯物を入れて、コースを選んで、お金を入れるだけ！
+                    <div style="padding:30px;">
+                      <table style="text-align:center;">
+                        <tbody>
+                          <tr>
+                            <th>コース</th>
+                            <th>内容</th>
+                            <th>かかる時間</th>
+                            <th>時間</th>
+                            <th>料金</th>
+                          </tr>
+                          <tr>
+                            <td>1</td>
+                            <td>洗濯＋乾燥（※2）</td>
+                            <td>60分</td>
+                            <td>1,200円</td>
+                          </tr>
+                          <tr>
+                            <td>2</td>
+                            <td>洗濯＋乾燥</td>
+                            <td>50分</td>
+                            <td>1,000円</td>
+                          </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>洗濯だけ</td>
+                            <td>40分</td>
+                            <td>800円</td>
+                          </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>乾燥だけ</td>
+                            <td>10分</td>
+                            <td>100円</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    * コース4は100円を入れると10分の乾燥、200円を入れると20分の乾燥となります。<br>
+                    コース1、またはコース2が終わったあと、もっと乾燥したいときに使えます。<br>
+
+                    <u>注意！お金を入れる前に、かならずコースを選んでください。</u>
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p></p>
+          <img decoding="async" class="question-img" src="assets/JFT-01_DK_mon2.png" alt="Image for question 34">
+
+        </div>
+        <div class="question">
+          <p>問１
+            水曜日に、６０分のコースを選んだあと、もう20分乾燥したいたい人は　全部でいくら　はらいますか。</p>
+
+
+          <label><input type="radio" name="question33" value="A" disabled="">500</label>
+          <label><input type="radio" name="question33" value="B" disabled="">600</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question33" value="C"
+              disabled="">700</label>
+        </div>
+        <div class="question">
+          <p>問２
+            このコインランドリーで、<strong><u>できない</u></strong>ことは　どれですか。</p>
+
+
+          <label style="color: green;"><input type="radio" name="question34" value="A" disabled="">洗濯だけを1時間する。</label>
+          <label><input type="radio" name="question34" value="B" disabled="">カーペットを洗う
+          </label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question34" value="C"
+              disabled="">コース１を2回する
+          </label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問題３．次のページのA「お買い物ポイント・カード」と　B　の、レシートを見て、質問に答えてください。答えは１．２．３からいちばんいいものを一つえらんでください。
+
+            </b><br> <span class="sub-title">
+              <style>
+                table,
+                th,
+                td {
+                  border: 1.5px solid black;
+                  border-collapse: collapse;
+                  font-weight: normal;
+                  padding: 15px 15px;
+                  background-color: white;
+                  color: black;
+                  width: auto;
+                }
+              </style>
+            </span></p>
+          <h2 style="color:black;">A</h2>
+
+          <table>
+            <tbody>
+              <tr>
+                <td>　
+                  <div style="text-align:center; font-size:20px;"><strong>★お買い物ポイント・カード</strong></div>
+
+                  お買い物をするとき、このカードを店員にお見せください。<br>
+                  100円のお買い物で5ポイント（5点）を差し上げます。<br>
+                  99円までのお買い物にはポイントがつきません。<br>
+                  毎週、木曜日はポイント2ばいになります。<br>
+                  毎月「8」のつく日に100円以上お買い物をなさった方には、<br>
+                  上のポイントとは別に10ポイントをさしあげます。<br>
+                  100ポイントで100円のお買い物ができます。<br>
+                  ポイントは、このカードを作った日から1年以内に<br>
+                  ごりようください。<br>
+                  1年をすぎるとポイントがぜんぶ使えなくなします。<br>
+
+                  ★ごこのカードを作った日★<br>
+                  2010年10月10日<br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <br>
+          <br>
+
+
+
+          <h2 style="color:black;">B</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>　
+                  <div style="text-align:center; font-size:20px;"><strong>コンビニあるく</strong><br>
+                    電話 03-3323-xxxx</div><br>
+                  <br>
+                  2011年 9月 8日(木) 17時 07分<br>
+                  クーピー牛乳 100円<br>
+                  カレーパン 120円<br>
+                  雑誌240円<br>
+                  合計 460円<br>
+                  <br>
+                  ご来店ありがとうございました。<br>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <p></p>
+
+
+        </div>
+        <div class="question">
+          <p>問１
+            B の買い物は、何ポイント（なんてん）もらえますか。
+          </p>
+
+
+          <label><input type="radio" name="question35" value="A" disabled="">20</label>
+          <label><input type="radio" name="question35" value="B" disabled="">23</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question35" value="C"
+              disabled="">50</label>
+        </div>
+        <div class="question">
+          <p>問２
+            今日は9月８日。ポイントはいつまで使えますか。
+          </p>
+
+
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question36" value="A"
+              disabled="">これから1週間ぐらい</label>
+          <label style="color: green;"><input type="radio" name="question36" value="B" disabled="">これから１ヵ月ぐらい　</label>
+          <label><input type="radio" name="question36" value="C" disabled="">これから６ヵ月ぐらい</label>
+        </div>
+      </div>
+      <div class="title">
+        <p>聴解</p>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>問題１：もんだい１では、はじめに質問を聞いてください。それから話を聞いて、もんだいようし１から４の中から、一番いいものを一つえらんでください。
+
+            </b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>１ばん</p>
+          <img decoding="async" class="question-img" src="assets/CK_1-1.png" alt="Image for question 38">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/1.1.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question37" value="A"
+              disabled="">1</label>
+          <label><input type="radio" name="question37" value="B" disabled="">2</label>
+          <label><input type="radio" name="question37" value="C" disabled="">3</label>
+          <label><input type="radio" name="question37" value="D" disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>２ばん</p>
+          <img decoding="async" class="question-img" src="assets/CK_1-2.png" alt="Image for question 39">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/1.2.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question38" value="A" disabled="">1</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question38" value="B"
+              disabled="">2</label>
+          <label style="color: green;"><input type="radio" name="question38" value="C" disabled="">3</label>
+          <label><input type="radio" name="question38" value="D" disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>３ばん</p>
+          <img decoding="async" class="question-img" src="assets/CK_1-3.png" alt="Image for question 40">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/1.3.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question39" value="A" disabled="">1</label>
+          <label style="color: green;"><input type="radio" name="question39" value="B" disabled="">2</label>
+          <label><input type="radio" name="question39" value="C" disabled="">3</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question39" value="D"
+              disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>４ばん</p>
+          <img decoding="async" class="question-img" src="assets/CK_1-4.png" alt="Image for question 41">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/1.4.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question40" value="A"
+              disabled="">1</label>
+          <label><input type="radio" name="question40" value="B" disabled="">2</label>
+          <label style="color: green;"><input type="radio" name="question40" value="C" disabled="">3</label>
+          <label><input type="radio" name="question40" value="D" disabled="">4</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>聴解　内容理解(店・交通機関)</b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>問題1</p>
+          <img decoding="async" class="question-img" src="assets/CK_2-1.png" alt="Image for question 42">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/2.1.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question41" value="A" disabled="">1</label>
+          <label><input type="radio" name="question41" value="B" disabled="">2</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question41" value="C"
+              disabled="">3</label>
+          <label style="color: green;"><input type="radio" name="question41" value="D" disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>問題2</p>
+
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/2.2.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label style="color: green;"><input type="radio" name="question42" value="A" disabled="">かるい　けいたいでんわ</label>
+          <label><input type="radio" name="question42" value="B" disabled="">サイズが　おおきい　けいたいでんわ
+          </label>
+          <label><input type="radio" name="question42" value="C" disabled="">いろいろ　できる　けいたいでんわ</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question42" value="D"
+              disabled="">しゃしんが　きれいに　とれる　けいたいでんわ</label>
+        </div>
+        <div class="question">
+          <p>問題3</p>
+          <img decoding="async" class="question-img" src="assets/CK_2-3.png" alt="Image for question 44">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/2.3.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question43" value="A" disabled="">1</label>
+          <label><input type="radio" name="question43" value="B" disabled="">2</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question43" value="C"
+              disabled="">3</label>
+          <label style="color: green;"><input type="radio" name="question43" value="D" disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>問題4</p>
+
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/2.4.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question44" value="A" disabled="">10分後</label>
+          <label style="color: green;"><input type="radio" name="question44" value="B" disabled="">20分後</label>
+          <label><input type="radio" name="question44" value="C" disabled="">35分後</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question44" value="D"
+              disabled="">50分後</label>
+        </div>
+      </div>
+      <div class="group">
+        <div class="title-group">
+          <p><b>内容理解(指示・アナウンス)</b><br> <span class="sub-title"></span></p>
+
+
+        </div>
+        <div class="question">
+          <p>問題1</p>
+          <img decoding="async" class="question-img" src="assets/CK_3-1.png" alt="Image for question 46">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/3.1.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question45" value="A"
+              disabled="">1</label>
+          <label style="color: green;"><input type="radio" name="question45" value="B" disabled="">2</label>
+          <label><input type="radio" name="question45" value="C" disabled="">3</label>
+          <label><input type="radio" name="question45" value="D" disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>問題2</p>
+          <img decoding="async" class="question-img" src="assets/CK_3-2.png" alt="Image for question 47">
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/3.2.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question46" value="A" disabled="">1</label>
+          <label><input type="radio" name="question46" value="B" disabled="">2</label>
+          <label><input type="radio" name="question46" value="C" disabled="">3</label>
+          <label class="selected-answer" style="color: green;"><input type="radio" name="question46" value="D"
+              disabled="">4</label>
+        </div>
+        <div class="question">
+          <p>問題3</p>
+
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/3.3.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label><input type="radio" name="question47" value="A" disabled="">火曜日と　木曜日</label>
+          <label><input type="radio" name="question47" value="B" disabled="">火曜日と　木曜日と　金曜日
+          </label>
+          <label style="color: green;"><input type="radio" name="question47" value="C"
+              disabled="">火曜日と　木曜日と　金曜日と　土曜日</label>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question47" value="D"
+              disabled="">火曜日と　木曜日と　金曜日と　土曜日と　日曜日
+          </label>
+        </div>
+        <div class="question">
+          <p>問題4</p>
+
+          <div class="audio-player"><audio controls="" controlslist="nodownload">
+              <source src="assets/3.4.mp3" type="audio/mpeg">
+            </audio>
+          </div>
+          <label class="selected-answer" style="color: red;"><input type="radio" name="question48" value="A"
+              disabled="">機械で　探す</label>
+          <label style="color: green;"><input type="radio" name="question48" value="B" disabled="">係の　人に　言う
+          </label>
+          <label><input type="radio" name="question48" value="C" disabled="">ほかの　図書館に　行く
+          </label>
+          <label><input type="radio" name="question48" value="D" disabled="">本屋で　買う</label>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    const fullNameEl = document.getElementById("fullName");
+    const nameHintEl = document.getElementById("nameHint");
+    const allAnsweredHintEl = document.getElementById("allAnsweredHint");
+    const submitBtn = document.getElementById("submitBtn");
+    const resetBtn = document.getElementById("resetBtn");
+    const resultEl = document.getElementById("result");
+    const mountEl = document.getElementById("mount");
+    const dataTpl = document.getElementById("dataTemplate");
+
+    function normalizeAndExtractAnswers(root) {
+      const questions = Array.from(root.querySelectorAll(".question"));
+      for (const q of questions) {
+        q.classList.remove("q-correct", "q-wrong", "q-missing");
+        q.removeAttribute("data-correct");
+        const labels = Array.from(q.querySelectorAll("label"));
+        let correctValue = null;
+
+        for (const lb of labels) {
+          const input = lb.querySelector('input[type="radio"]');
+          if (!input) continue;
+
+          // Identify correct answer: label has inline style containing 'green'
+          const style = (lb.getAttribute("style") || "").toLowerCase();
+          if (style.includes("green")) correctValue = input.value;
+
+          // Make selectable
+          input.disabled = false;
+          input.checked = false;
+
+          // Remove old "answer key" hints from data.txt
+          lb.classList.remove("selected-answer");
+          lb.removeAttribute("style");
+          lb.classList.remove("opt-correct", "opt-wrong");
         }
 
-        // data.txt includes embedded <style> blocks inside titles; keep them (tables rely on it)
-        return root;
+        if (correctValue) q.dataset.correct = correctValue;
       }
 
-      function renderQuiz() {
-        const frag = dataTpl.content.cloneNode(true);
-        const container = frag.querySelector("#questionContainer");
-        normalizeAndExtractAnswers(container);
-        mountEl.replaceChildren(container);
-      }
+      // data.txt includes embedded <style> blocks inside titles; keep them (tables rely on it)
+      return root;
+    }
 
-      function getAllQuestionBlocks() {
-        return Array.from(mountEl.querySelectorAll(".question")).filter((q) =>
-          q.querySelector('input[type="radio"]')
-        );
-      }
+    function renderQuiz() {
+      const frag = dataTpl.content.cloneNode(true);
+      const container = frag.querySelector("#questionContainer");
+      normalizeAndExtractAnswers(container);
+      mountEl.replaceChildren(container);
+    }
 
-      function getUserChoice(questionEl) {
-        const checked = questionEl.querySelector('input[type="radio"]:checked');
-        return checked ? checked.value : null;
-      }
+    function getAllQuestionBlocks() {
+      return Array.from(mountEl.querySelectorAll(".question")).filter((q) =>
+        q.querySelector('input[type="radio"]')
+      );
+    }
 
-      function lockInputs() {
-        for (const input of mountEl.querySelectorAll('input[type="radio"]')) input.disabled = true;
-      }
+    function getUserChoice(questionEl) {
+      const checked = questionEl.querySelector('input[type="radio"]:checked');
+      return checked ? checked.value : null;
+    }
 
-      function unlockInputsAndClear() {
-        for (const q of getAllQuestionBlocks()) {
-          q.classList.remove("q-correct", "q-wrong", "q-missing");
-          for (const lb of q.querySelectorAll("label")) lb.classList.remove("opt-correct", "opt-wrong");
-          for (const input of q.querySelectorAll('input[type="radio"]')) {
-            input.disabled = false;
-            input.checked = false;
-          }
+    function lockInputs() {
+      for (const input of mountEl.querySelectorAll('input[type="radio"]')) input.disabled = true;
+    }
+
+    function unlockInputsAndClear() {
+      for (const q of getAllQuestionBlocks()) {
+        q.classList.remove("q-correct", "q-wrong", "q-missing");
+        for (const lb of q.querySelectorAll("label")) lb.classList.remove("opt-correct", "opt-wrong");
+        for (const input of q.querySelectorAll('input[type="radio"]')) {
+          input.disabled = false;
+          input.checked = false;
         }
       }
+    }
 
-      function grade() {
-        const name = (fullNameEl.value || "").trim();
-        if (!name) {
-          nameHintEl.classList.add("show");
-          allAnsweredHintEl.classList.remove("show");
-          fullNameEl.focus();
-          return;
-        }
-        nameHintEl.classList.remove("show");
+    function grade() {
+      const name = (fullNameEl.value || "").trim();
+      if (!name) {
+        nameHintEl.classList.add("show");
         allAnsweredHintEl.classList.remove("show");
+        fullNameEl.focus();
+        return;
+      }
+      nameHintEl.classList.remove("show");
+      allAnsweredHintEl.classList.remove("show");
 
-        const questions = getAllQuestionBlocks();
-        let correct = 0;
-        let answered = 0;
-        const missing = [];
+      const questions = getAllQuestionBlocks();
+      let correct = 0;
+      let answered = 0;
+      const missing = [];
 
-        for (const q of questions) {
-          q.classList.remove("q-missing");
-          const choice = getUserChoice(q);
-          if (choice) answered++;
-          else missing.push(q);
+      for (const q of questions) {
+        q.classList.remove("q-missing");
+        const choice = getUserChoice(q);
+        if (choice) answered++;
+        else missing.push(q);
+      }
+
+      // Require: all questions must be answered
+      if (missing.length > 0) {
+        allAnsweredHintEl.classList.add("show");
+        // Mark missing + scroll to first missing question
+        for (const q of missing) q.classList.add("q-missing");
+        missing[0].scrollIntoView({ behavior: "smooth", block: "center" });
+        return;
+      }
+
+      for (let i = 0; i < questions.length; i++) {
+        const q = questions[i];
+        const correctValue = q.dataset.correct || null;
+        const choice = getUserChoice(q);
+        const isCorrect = !!choice && !!correctValue && choice === correctValue;
+        if (isCorrect) correct++;
+
+        q.classList.toggle("q-correct", isCorrect);
+        q.classList.toggle("q-wrong", !isCorrect);
+
+        const labels = Array.from(q.querySelectorAll("label"));
+        for (const lb of labels) {
+          const input = lb.querySelector('input[type="radio"]');
+          if (!input) continue;
+          if (correctValue && input.value === correctValue) lb.classList.add("opt-correct");
+          if (choice && input.value === choice && choice !== correctValue) lb.classList.add("opt-wrong");
         }
+      }
 
-        // Require: all questions must be answered
-        if (missing.length > 0) {
-          allAnsweredHintEl.classList.add("show");
-          // Mark missing + scroll to first missing question
-          for (const q of missing) q.classList.add("q-missing");
-          missing[0].scrollIntoView({ behavior: "smooth", block: "center" });
-          return;
-        }
+      lockInputs();
 
-        for (let i = 0; i < questions.length; i++) {
-          const q = questions[i];
-          const correctValue = q.dataset.correct || null;
-          const choice = getUserChoice(q);
-          const isCorrect = !!choice && !!correctValue && choice === correctValue;
-          if (isCorrect) correct++;
+      const total = questions.length;
+      const pct = total ? Math.round((correct / total) * 100) : 0;
 
-          q.classList.toggle("q-correct", isCorrect);
-          q.classList.toggle("q-wrong", !isCorrect);
-
-          const labels = Array.from(q.querySelectorAll("label"));
-          for (const lb of labels) {
-            const input = lb.querySelector('input[type="radio"]');
-            if (!input) continue;
-            if (correctValue && input.value === correctValue) lb.classList.add("opt-correct");
-            if (choice && input.value === choice && choice !== correctValue) lb.classList.add("opt-wrong");
-          }
-        }
-
-        lockInputs();
-
-        const total = questions.length;
-        const pct = total ? Math.round((correct / total) * 100) : 0;
-
-        resultEl.classList.add("show");
-        resultEl.innerHTML = `
+      resultEl.classList.add("show");
+      resultEl.innerHTML = `
           <div class="score">${name}: Điểm ${correct}/${total} (${pct}%)</div>
           <div class="meta">Mỗi câu 1 điểm. Đã chọn: ${answered}/${total} câu.</div>
         `;
-        resultEl.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
+      resultEl.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
 
-      function resetAll() {
-        resultEl.classList.remove("show");
-        resultEl.innerHTML = "";
-        nameHintEl.classList.remove("show");
-        allAnsweredHintEl.classList.remove("show");
-        unlockInputsAndClear();
-        fullNameEl.focus();
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      }
-
-      submitBtn.addEventListener("click", grade);
-      resetBtn.addEventListener("click", resetAll);
-      fullNameEl.addEventListener("input", () => nameHintEl.classList.remove("show"));
-      fullNameEl.addEventListener("input", () => allAnsweredHintEl.classList.remove("show"));
-
-      renderQuiz();
+    function resetAll() {
+      resultEl.classList.remove("show");
+      resultEl.innerHTML = "";
+      nameHintEl.classList.remove("show");
+      allAnsweredHintEl.classList.remove("show");
+      unlockInputsAndClear();
       fullNameEl.focus();
-    </script>
-  </body>
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    submitBtn.addEventListener("click", grade);
+    resetBtn.addEventListener("click", resetAll);
+    fullNameEl.addEventListener("input", () => nameHintEl.classList.remove("show"));
+    fullNameEl.addEventListener("input", () => allAnsweredHintEl.classList.remove("show"));
+
+    renderQuiz();
+    fullNameEl.focus();
+  </script>
+</body>
+
 </html>
